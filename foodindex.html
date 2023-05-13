@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <title>Restaurant</title>
+    <link rel="icon" type="image/x-icon" href="pbl/Images/fabicon.png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.bundle.js"></script>
 </head>
 <style>
+    body {
+      background-color: rgb(247, 247, 247);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
     .bg-1{
         background-image: linear-gradient(rgba(7, 10, 6, 0.767), rgba(7, 10, 6, 0.562)), url(pbl/images/food.jpg);
         background-repeat: no-repeat;
@@ -25,6 +29,9 @@
          width: 40px;
          height: 40px;
          border-radius: 10px;
+    }
+    .dropdown-menu .dropdown-item {
+      color: rgb(151, 11, 11);
     }
     .navbar-nav a {
         font-size: 20px;
@@ -49,7 +56,8 @@
     <div class="bg-1">
     <nav class="navbar navbar-expand-lg navbar-light">
 		<div class="container">
-			<a class="navbar-brand" href="#"><span>Agency</span></a> 
+			<img src="pbl/images/fabicon.png" style="height: 55px;">
+			<a class="navbar-brand" href="#" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 34px; color: rgb(204, 6, 6);"><span>Esra</span></a> 
 			<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -61,13 +69,13 @@
 					</li>
                     <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="jobindex.html">Job</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="foodindex.html">Food</a></li>
-                            <li><a class="dropdown-item" href="clothesindex.html">Fashion</a></li>
-                            <li><a class="dropdown-item" href="electronic.html">Electronic</a></li>
+                          <li><a class="dropdown-item" href="foodindex.html">Restaurant</a></li>
+                          <li><a class="dropdown-item" href="clothesindex.html">Fashion</a></li>
+                          <li><a class="dropdown-item" href="electronic.html">Electrical</a></li>
                         </ul>
                     </li>
 					<li class="nav-item">
-						<a class="nav-link" href=".html">Contact</a>
+						<a class="nav-link" href="contactusindex.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -78,7 +86,7 @@
             <div class="col-mt-3">
                 <div class="container mt-2">
                     <h2 class="fw-bold mt-3 text-white text-center">Our mission</h2>
-                    <p class="pt-3 mt-2 mb-5 text-white" style="font-size: 18px;">Sending flowers online through in the United State is a fast-growing trend. The popularity of our website is growing day in and day out because of the quality service and flowers that we provide to our customers. Besides the flowers, we also deliver certain gift items on the special request of our customers. These are world-famed branded chocolates and premium quality stuffed teddy bears. These gifts complement the flower arrangements and make them more attractive in the eyes of the receiver. The chocolates are of famous brands like Mars Bars, Hershey's, Lindt, Dairy Milk, KitKat and many more. We make sure that the stuffed teddy bears are of excellent quality and their material is toxin-free. 
+                    <p class="pt-3 mt-2 mb-5 text-white text-center" style="font-size: 21px;">As you can see, there is manys jobs that related to the restaurant business, such as chef and waiter and also you can do part-time job as extra income. We are connected with companies such as Mc Donald, KFC, Lotteria, Starbucks, Pizza Hut, Burger KIng, etc. If you interested, you can see the details below.
                 </div>
             </div>
         </div>
@@ -86,15 +94,23 @@
     </div>
 
     <div class="container my-5">
-        <h2 class="pb-4 mb-5 text-center border-bottom">Food companies</h2>
+        <h2 class="pb-4 mb-5 text-center border-bottom">Some food companies connected with us</h2>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 p-4">
                 <img src="pbl/Images/kfcbg.jpg" style="width: 560px; height: 300px;">
             </div>
             <div class="col-md-6">
-                <div class="container mt-2 p-5">
-                    <h1 class="display-6">What's new?</h1>
-                    <h5 class="mb-5">If you want to order, you can call the numbers below, or you can come to the store to buy.</h5>  
+                <div class="container p-5">
+                    <h2 class="display-6 p-3">Requirement</h2>
+                    <ul class="mb-2">
+                        <li>Must have 5 years experience in cooking field</li>
+                        <li>Age (20-40)</li>            
+                        <li>Specific knowledge about electricity and devices</li>
+                        <li>Language : English (necessity)</li>
+                        <li>Skills (Creativity, knife skills, hygiene and food safety)</li>
+                        <a href="loginformindex.html" class="btn btn-danger mt-2" style="font-size: 17px; ">Login to view salary</a>
+                        <a href="registerform.html" class="btn btn-danger mt-2 " style="font-size: 17px; ">Apply now</a>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -102,13 +118,21 @@
 
     <div class="container-fluid my-5 p-5 text-white" style="background-color: rgb(151, 11, 11);">
         <div class="row">
-            <div class="col-md-6">
-                <div class="container mt-2 p-5">
-                    <h1 class="display-6">What's new?</h1>
-                    <h5 class="mb-5">If you want to order, you can call the numbers below, or you can come to the store to buy.</h5>  
+            <div class="col-md-6 p-5">
+                <div class="container">
+                    <h2 class="display-6 p-3">Requirement</h2>
+                    <ul class="mb-2">
+                        <li>Must have 5 years experience in cooking field</li>
+                        <li>Age (20-40)</li>            
+                        <li>Specific knowledge about electricity and devices</li>
+                        <li>Language : English (necessity)</li>
+                        <li>Skills (Creativity, knife skills, hygiene and food safety)</li>
+                        <a href="loginformindex.html" class="btn btn-light mt-2" style="font-size: 17px; ">Login to view salary</a>
+                        <a href="registerform.html" class="btn btn-light mt-2 " style="font-size: 17px; ">Apply now</a>
+                    </ul>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 p-4">
                 <img src="pbl/Images/starbuckbg.jpg" style="width: 560px; height: 300px;">
             </div>
         </div>
@@ -116,13 +140,21 @@
 
     <div class="container my-5">
         <div class="row">
-            <div class="col-md-6">
-                <img src="pbl/Images/mcdonald.jpg" style="width: 560px; height: 300px;">
+            <div class="col-md-6 p-4">
+                <img src="pbl/Images/pizzahutbg.jpg" style="width: 560px; height: 300px;">
             </div>
             <div class="col-md-6">
-                <div class="container mt-2 p-5">
-                    <h1 class="display-6">What's new?</h1>
-                    <h5 class="mb-5">If you want to order, you can call the numbers below, or you can come to the store to buy.</h5>  
+                <div class="container p-5">
+                    <h2 class="display-6 p-3">Requirement</h2>
+                    <ul class="mb-2">
+                        <li>No experience is needed but must be able to
+                        <li>Age (18-30)</li>
+                        <li>Personal qualities (ability to work with others, ability to accept criticism and a desire to help people)</li>
+                        <li>Language : English(optional)</li>
+                        <li>Skills (Communication skills, customer service skills and attentiveness)</li>
+                        <a href="loginformindex.html" class="btn btn-danger mt-2" style="font-size: 17px; ">Login to view salary</a>
+                        <a href="registerform.html" class="btn btn-danger mt-2 " style="font-size: 17px; ">Apply now</a>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -131,41 +163,65 @@
     <div class="container-fluid my-5 p-5 text-white" style="background-color: rgb(87, 86, 86);">
         <div class="row">
             <div class="col-md-6 p-5">
-                <div class="container mt-2">
-                    <h1 class="display-6">What's new?</h1>
-                    <h5 class="mb-5">If you want to order, you can call the numbers below, or you can come to the store to buy.</h5>  
+                <div class="container">
+                    <h2 class="display-6 p-3">Requirement</h2>
+                    <ul class="mb-2">
+                        <li>Must have 5 years experience in cooking field</li>
+                        <li>Age (20-40)</li>            
+                        <li>Specific knowledge about electricity and devices</li>
+                        <li>Language : English (necessity)</li>
+                        <li>Skills (Creativity, knife skills, hygiene and food safety)</li>
+                        <a href="loginformindex.html" class="btn btn-light mt-2" style="font-size: 17px; ">Login to view salary</a>
+                        <a href="registerform.html" class="btn btn-light mt-2 " style="font-size: 17px; ">Apply now</a>
+                    </ul>
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="pbl/Images/pizzahutbg.jpg" style="width: 560px; height: 300px;">
+            <div class="col-md-6 p-4">
+                <img src="pbl/Images/mcdonald.jpg" style="width: 560px; height: 300px;">
             </div>
         </div>
     </div>
 
     <div class="container my-5">
         <div class="row">
-            <div class="col-md-6">
-                <img src="pbl/Images/burgerkshop.jpg" style="width: 560px; height: 300px;">
+            <div class="col-md-6 p-4">
+                <img src="pbl/Images/lotteriashop.png" style="width: 560px; height: 300px;">
             </div>
             <div class="col-md-6">
-                <div class="container mt-2 p-5">
-                    <h1 class="display-6">What's new?</h1>
-                    <h5 class="mb-5">If you want to order, you can call the numbers below, or you can come to the store to buy.</h5>  
+                <div class="container p-5">
+                    <h2 class="display-6 p-3">Requirement</h2>
+                    <ul class="mb-2">
+                        <li>No experience is needed but must be able to
+                            <li>Age (18-30)</li>
+                            <li>Personal qualities (ability to work with others, ability to accept criticism and a desire to help people)</li>
+                            <li>Language : English(optional)</li>
+                            <li>Skills (Communication skills, customer service skills and attentiveness)</li>
+                            <a href="loginformindex.html" class="btn btn-danger mt-2" style="font-size: 17px; ">Login to view salary</a>
+                            <a href="registerform.html" class="btn btn-danger mt-2 " style="font-size: 17px; ">Apply now</a>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid my-5 p-5 text-white" style="background-color: rgb(179, 179, 179);">
+    <div class="container-fluid my-5 p-5 text-white" style="background-color: rgb(177, 177, 177);">
         <div class="row">
             <div class="col-md-6 p-5">
-                <div class="container mt-2">
-                    <h1 class="display-6">What's new?</h1>
-                    <h5 class="mb-5">If you want to order, you can call the numbers below, or you can come to the store to buy.</h5>  
+                <div class="container">
+                    <h2 class="display-6 p-3">Requirement</h2>
+                    <ul class="mb-2">
+                        <li>No experience is needed but must be able to
+                        <li>Age (18-30)</li>
+                        <li>Personal qualities (ability to work with others, ability to accept criticism and a desire to help people)</li>
+                        <li>Language : English(optional)</li>
+                        <li>Skills (Communication skills, customer service skills and attentiveness)</li>
+                        <a href="loginformindex.html" class="btn btn-light mt-2" style="font-size: 17px; ">Login to view salary</a>
+                        <a href="registerform.html" class="btn btn-light mt-2 " style="font-size: 17px; ">Apply now</a>
+                    </ul>
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="pbl/Images/lotteriashop.png" style="width: 560px; height: 300px;">
+            <div class="col-md-6 p-4">
+                <img src="pbl/Images/burgerkshop.jpg" style="width: 560px; height: 300px;">
             </div>
         </div>
     </div>

@@ -5,30 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="pbl/Images/fabicon.png">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="js/bootstrap.bundle.js"></script>
 </head>
 <style>
+    body {
+      background-color: rgb(247, 247, 247);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
     .bg2 {
-        background-image: url(image/wfl.jpg);
+        background-image: linear-gradient(rgba(7, 10, 6, 0.767), rgba(7, 10, 6, 0.562)), url(pbl/Images/aboutus.jpg);
         background-repeat: no-repeat;
         background-position: center;
         -webkit-background-size: cover;
 	    background-size: cover;
-        height: 500px;
+        height: 480px;
     }
     .icon-square{
          width: 40px;
          height: 40px;
          border-radius: 10px;
     }
+    .dropdown-menu .dropdown-item {
+      color: rgb(151, 11, 11);
+    }
     .navbar-nav a {
-	font-size: 20px;
-	text-transform: uppercase;
-	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+        font-size: 20px;
+	    text-transform: uppercase;
+	    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+        font-family:'Times New Roman', Times, serif
     }
     .navbar-light .navbar-brand {
 	color: #2e2209;
@@ -47,8 +55,8 @@
     <div class="bg2">
     <nav class="navbar navbar-expand-lg navbar-light">
 		<div class="container">
-			<a class="navbar-brand" href="#">
-				<span>Agency</span></a> 
+			<img src="pbl/images/fabicon.png" style="height: 55px;">
+			<a class="navbar-brand" href="#" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 34px; color: rgb(204, 6, 6);"><span>Esra</span></a> 
 			<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -60,13 +68,13 @@
 					</li>
                     <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="jobindex.html">Job</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="mainpgindex.html">Service 1</a></li>
-                            <li><a class="dropdown-item" href="#">Service 2</a></li>
-                            <li><a class="dropdown-item" href="#">Service 3</a></li>
+                          <li><a class="dropdown-item" href="foodindex.html">Restaurant</a></li>
+                          <li><a class="dropdown-item" href="clothesindex.html">Fashion</a></li>
+                          <li><a class="dropdown-item" href="electronic.html">Electrical</a></li>
                         </ul>
                     </li>
 					<li class="nav-item">
-						<a class="nav-link" href="contactindex.html">Contact</a>
+						<a class="nav-link" href="contactusindex.html">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -129,7 +137,7 @@
             </div>
             <div class="col-md-6">
                 <div class="container mt-2">
-                    <h2 class="pt-2 text-white text-center">Who are we?</h2>
+                    <h2 class="pt-2 text-white text-center">Developes</h2>
                     <p class="pt-4 mt-2 mb-5 text-white" style="font-size: 18px;">Sending flowers online through in the United State is a fast-growing trend. The popularity of our website is growing day in and day out because of the quality service and flowers that we provide to our customers. Besides the flowers, we also deliver certain gift items on the special request of our customers. These are world-famed branded chocolates and premium quality stuffed teddy bears. These gifts complement the flower arrangements and make them more attractive in the eyes of the receiver. The chocolates are of famous brands like Mars Bars, Hershey's, Lindt, Dairy Milk, KitKat and many more. We make sure that the stuffed teddy bears are of excellent quality and their material is toxin-free. </p>
                 </div>
             </div>
@@ -138,7 +146,7 @@
 
     <div class="container">
         <div class="row">
-            <h3 class="pb-3 text-center">Some of our available companies</h3>
+            <h3 class="pb-3 text-center">Some of our partners's companies</h3>
             <div class="col-xl-2 col-md-4 d-flex">
                 <div class="d-flex justify-content-center align-items-center flex-shrink-0 me-3 p-3">
                     <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="50" height="70"><title>McDonald's</title><path d="M17.243 3.006c2.066 0 3.742 8.714 3.742 19.478H24c0-11.588-3.042-20.968-6.766-20.968-2.127 0-4.007 2.81-5.248 7.227-1.241-4.416-3.121-7.227-5.231-7.227C3.031 1.516 0 10.888 0 22.476h3.014c0-10.763 1.658-19.47 3.724-19.47 2.066 0 3.741 8.05 3.741 17.98h2.997c0-9.93 1.684-17.98 3.75-17.98Z"/></svg> 
@@ -162,6 +170,27 @@
             </div>
             <div class="col-xl-2 col-md-4 d-flex">
                 <img src="pbl/images/pizzahutlogo.png" style="width: 65px; height: 60px;">
+            </div>
+            <div class="col-xl-2 col-md-4 d-flex">
+                <img src="pbl/images/channel ogo.jpg" style="width: 65px; height: 60px;">
+            </div>
+            <div class="col-xl-2 col-md-4 d-flex">
+                <img src="pbl/images/huawailogo.jpg" style="width: 65px; height: 60px;">
+            </div>
+            <div class="col-xl-2 col-md-4 d-flex">
+                <img src="pbl/images/guccilogo.png" style="width: 90px; height: 60px;">
+            </div>
+            <div class="col-xl-2 col-md-4 d-flex">
+                <img src="pbl/images/lvlogo.png" style="width: 90px; height: 60px;">
+            </div>
+            <div class="col-xl-2 col-md-4 d-flex">
+                <img src="pbl/images/nikelogo.png" style="width: 79px; height: 35px;">
+            </div>
+            <div class="col-xl-2 col-md-4 d-flex">
+                <img src="pbl/images/adidaslogo.png" style="width: 60px; height: 40px;">
+            </div>
+            <div class="col-xl-2 col-md-4 d-flex">
+                <img src="pbl/images/nikelogo.png" style="width: 89px; height: 40px;">
             </div>
         </div>
     </div>
